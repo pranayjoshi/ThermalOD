@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: smart-yjdj0
+  project: persondection
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smart-yjdj0/persondection/dataset/9

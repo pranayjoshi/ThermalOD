@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['PersonDection - v9 2023-04-28 11-06am']
+
+roboflow:
+  workspace: scifair2324
+  project: people-lajkn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/scifair2324/people-lajkn/dataset/1

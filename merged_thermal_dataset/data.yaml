@@ -1,0 +1,13 @@
+test: ../test/images
+train: ../train/images
+val: ../valid/images
+names:
+- human
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: merged-thermal-dataset
+  url: ''
+  version: 1
+  workspace: merged-dataset
+

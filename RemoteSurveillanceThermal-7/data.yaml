@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Human']
+
+roboflow:
+  workspace: remotesurveillance-xy8vj
+  project: remotesurveillancethermal
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/remotesurveillance-xy8vj/remotesurveillancethermal/dataset/7

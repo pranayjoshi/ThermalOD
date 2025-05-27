@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: smart2
+  project: persondection-61bc2
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smart2/persondection-61bc2/dataset/5

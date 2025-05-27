@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pedestrian']
+
+roboflow:
+  workspace: university-a4j9h
+  project: pedestrians-detection-vatow
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-a4j9h/pedestrians-detection-vatow/dataset/1
